@@ -1,0 +1,29 @@
+Name: 
+Lethality: 
+
+Health: 
+Temp Health: 
+Mana: 
+AC: 
+Movement: 
+Draconic Actions: 
+Size: 
+
+Strength: 
+Dexterity: 
+Constitution: 
+Intelligence: 
+Wisdom: 
+Charisma: 
+Initiative: 
+
+Saving Throws: 
+StrengthS: 
+DexterityS: 
+ConstitutionS: 
+IntelligenceS: 
+WisdomS: 
+CharismaS: 
+
+Resistances: 
+Weaknesses: 

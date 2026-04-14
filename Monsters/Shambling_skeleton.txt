@@ -1,0 +1,29 @@
+Name: Shambling Skeleton
+Lethality: 1
+
+Health: 5
+Temp Health: 0
+Mana: 1
+AC: 8
+Movement: 30
+Draconic Actions: 0
+Size: Medium
+
+Strength: 4 / +2
+Dexterity: 2 / +1
+Constitution: 3 / + 1
+Intelligence: 1 / +0
+Wisdom 1 / +0
+Charisma 1 / +0
+Initiative: +2
+
+Saving Throws: 
+StrengthS: +3
+DexterityS: +2
+ConstitutionS: +2
+IntelligenceS: + 1
+WisdomS +1
+CharismaS +1
+
+Resistances: 
+Weaknesses: 
