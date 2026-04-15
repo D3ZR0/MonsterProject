@@ -37,20 +37,17 @@ def create_new_monster(Name, Lethality, Health, Mana, AC,
     except FileExistsError:
         print(f"{Name}.txt already exists, Monster creation aborted.")
 
-def create_custom_hp(monster_name, hp_value):
+def create_custom_hp(monster_name, player_count):
     shutil.copy(f"../Monsters/{monster_name}.txt", "temp_monster.txt")
-    
-    # Read the content
     with open("temp_monster.txt", "r") as f:
         content = f.read()
-    
-    # Find and replace the Health line
     lines = content.split('\n')
     for i, line in enumerate(lines):
         if line.startswith("Health: "):
+            hp_value = line.split("Health: ")[1]
+            hp_value = hp_value * .5 * player_count
             lines[i] = f"Health: {hp_value}"
             break
     
-    # Write back
     with open("temp_monster.txt", "w") as f:
         f.write('\n'.join(lines))
